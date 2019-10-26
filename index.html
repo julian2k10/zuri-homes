@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zuri Homes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2214859a0c.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="header" class="row">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light col-lg-12">
+      <div class="navbar-brand">
+        <img src="img/logo.png" alt="Logo Image" class="d-inline-block align-top mt-0" width="100" height="100">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact US</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Testimonial</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <div id="banner"class="container-fluid row">
+    <h1 class="banner-text col-lg-6">Restoring Homes & Hope in the <strong>Hearts</strong> of our clients...</h1>
+    <img src="img/banner.png" alt="Banner Image" class="banner-img">
+  </div>
+
+  <section class="services container-fluid row">
+    <div class="feature-item col-lg-4">
+      <h3>Get your time back!</h3>
+      <img src="img/customer1.png" alt="Image of client" class="feature-img">
+      <p class="feature-text">Leave the day-to-day management to us, while you focus on other aspects of your business. We employ the latest technology to run credit, background and national eviction search on prospective tenants.</p>
+    </div>
+
+    <div class="feature-item col-lg-4">
+        <h3>Need cash for real estate?</h3>
+        <img src="img/cash_for_realestate.jpg" alt="Image of cash" class="feature-img">
+        <p class="feature-text">Get <span>fast funds</span> for real estate property flips.</p>
+        <ul>
+          <li>Quick Funding</li>
+          <li>No Credit Checks</li>
+          <li>Short & Long Term Money</li>
+        </ul>
+    </div>
+  </section>
+
+  <section id="sell-home">
+    <h2>Get Cash For Your Home...</h2>
+    <br>
+    <h3 id="works">Here's How it Works:</h3>
+    <div id="works-container" class="container-fluid row">
+      <div class="sell-home-step col-lg-3 col-md-5">
+        <h4>1</h4>
+        <h5>Submit Your Info</h5>
+        <i class="fas fa-desktop fa-3x"></i>
+        <p>Enter your information in the form bellow.</p>
+      </div>
+      <div class="sell-home-step col-lg-3 col-md-5">
+        <h4>2</h4>
+        <h5>We'll Call You</h5>
+        <i class="fas fa-phone-volume fa-3x"></i>
+        <p>We will give you a call to discuss an offer for the property.</p>
+      </div>
+      <div class="sell-home-step col-lg-3 col-md-5">
+        <h4>3</h4>
+        <h5>Like the Offer?</h5>
+        <i class="fas fa-thumbs-up fa-3x"></i>
+        <p>You may accept or reject the offer presented to you during the call.</p>
+      </div>
+      <div class="sell-home-step col-lg-3 col-md-5">
+        <h4>4</h4>
+        <h5>Get the Cash</h5>
+        <i class="fas fa-hand-holding-usd fa-3x"></i>
+        <p>Get the cash in hand that you need, and your home is sold!</p>
+      </div>
+    </div>
+
+    <section id="home-info" class="container-fluid row">
+      <div class="form-container col-lg-3 col-md-6 col-sm-8 bg-light">
+        <div class="form-banner">
+          <h3>Sell Your Home Now!</h3>
+        </div>
+        <form action="index.html" method="post">
+          <h6>Contact Info</h6>
+          <input type="text" name="name" value="Your Name">
+          <input type="phone" name="phone" value="Phone Number">
+          <input type="email" name="email" value="Email Address">
+          <h6>Property Info</h6>
+          <input type="text" name="address" value="Street Address">
+          <input type="text" name="city" value="City">
+          <fieldset>
+    			  <select class="select-state" name="state">
+            <option value="Select State">Select State</option>
+            <option value="Alabama">Alabama</option>
+            <option value="Alaska">Alaska</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Arkansas">Arkansas</option>
+            <option value="California">California</option>
+            <option value="Colorado">Colorado</option>
+            <option value="Connecticut">Connecticut</option>
+            <option value="Delaware">Delaware</option>
+            <option value="District of Columbia">District of Columbia</option>
+            <option value="Florida">Florida</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Guam">Guam</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Idaho">Idaho</option>
+            <option value="Illinois">Illinois</option>
+            <option value="Indiana">Indiana</option>
+            <option value="Iowa">Iowa</option>
+            <option value="Kansas">Kansas</option>
+            <option value="Kentucky">Kentucky</option>
+            <option value="Louisiana">Louisiana</option>
+            <option value="Maine">Maine</option>
+            <option value="Maryland">Maryland</option>
+            <option value="Massachusetts">Massachusetts</option>
+            <option value="Michigan">Michigan</option>
+            <option value="Minnesota">Minnesota</option>
+            <option value="Mississippi">Mississippi</option>
+            <option value="Missouri">Missouri</option>
+            <option value="Montana">Montana</option>
+            <option value="Nebraska">Nebraska</option>
+            <option value="Nevada">Nevada</option>
+            <option value="New Hampshire">New Hampshire</option>
+            <option value="New Jersey">New Jersey</option>
+            <option value="New Mexico">New Mexico</option>
+            <option value="New York">New York</option>
+            <option value="North Carolina">North Carolina</option>
+            <option value="North Dakota">North Dakota</option>
+            <option value="Northern Marianas Islands">Northern Marianas Islands</option>
+            <option value="Ohio">Ohio</option>
+            <option value="Oklahoma">Oklahoma</option>
+            <option value="Oregon">Oregon</option>
+            <option value="Pennsylvania">Pennsylvania</option>
+            <option value="Puerto Rico">Puerto Rico</option>
+            <option value="Rhode Island">Rhode Island</option>
+            <option value="South Carolina">South Carolina</option>
+            <option value="South Dakota">South Dakota</option>
+            <option value="Tennessee">Tennessee</option>
+            <option value="Texas">Texas</option>
+            <option value="Utah">Utah</option>
+            <option value="Vermont">Vermont</option>
+            <option value="Virginia">Virginia</option>
+            <option value="Virgin Islands">Virgin Islands</option>
+            <option value="Washington">Washington</option>
+            <option value="West Virginia">West Virginia</option>
+            <option value="Wisconsin">Wisconsin</option>
+            <option value="Wyoming">Wyoming</option>
+            </select>
+          </fieldset>
+          <input type="text" name="zipcode" value="Zip Code">
+          <input id="form-button" type="submit" name="btn-submit" value="Get Started" class="button">
+        </form>
+      </div>
+
+      <div id="sell-home-poster" class="col-lg-4 col-md-6 col-sm-8">
+        <div class="form-banner">
+          <h3>You're in Good Hands!</h3>
+        </div>
+        <img id="sell-home-img" class="feature-img" src="img/customer5.png" alt="sell home poster image">
+      </div>
+    </section>
+  </section>
+
+  <section id="footer" class="container-fluid row bg-light">
+    <div class="col-lg-6">
+      <h6>CONTACT US</h6>
+      <p>8362 Pines Blvd # 417, Pembroke Pines, FL 33024</p>
+      <p>support@zuri-homes.com</p>
+      <p>(954) 743-7229</p>
+    </div>
+    <div id="copyright" class="col-lg-6">
+      <h6 class="text-center">Copyright © 2019 zuri-homes - All Rights Reserved.</h6>
+    </div>
+  </section>
+</body>
+
+</html>

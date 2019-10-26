@@ -1,0 +1,342 @@
+body{
+  padding-top: 0;
+  margin: 0 auto;
+  background-color: #6c7b95;
+}
+
+/* div, section{
+  border-color: brown;
+  border-style: solid;
+  border-width: thin;
+} */
+
+form{
+  padding: 0;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h4, h5, h6{
+  font-family: 'Merriweather', serif;
+}
+
+h6{
+  margin: 10px auto;
+  font-weight: bolder;
+  color: #555555
+}
+
+ul{
+  list-style-type: disc;
+}
+
+nav{
+  display: inline-block;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+form input{
+  width: 75%;
+  height: 2rem;
+  margin: 2px auto;
+  color: #888888;
+}
+
+.header{
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+  height: 6.25rem;
+  width: 100%;
+  background-color: #464159;
+}
+
+.nav-menu{
+  float: left;
+  padding: 1em;
+}
+
+#copyright{
+
+}
+
+#footer{
+  padding: 0;
+  height: 13rem;
+  margin: 0 auto;
+  border-color: white;
+  border-style: groove;
+  border-width: medium;
+}
+#main-container{
+  display: inline-grid;
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-color: #6c7b95;
+}
+
+#banner{
+  width: 100%;
+  height: 22.3rem;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 7.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.banner-text{
+  position: absolute;
+}
+
+.banner-img{
+  height: 22rem;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.border_gradient {
+border: 8px solid #000;
+-moz-border-bottom-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+-moz-border-top-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+-moz-border-left-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+-moz-border-right-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+padding: 5px 5px 5px 15px;
+width: 300px;
+}
+
+.services{
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.feature-block{
+  display: inline-block;
+  text-align: center;
+  display: inline;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: thin;
+  border-color: green;
+}
+
+.feature-item{
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+  height: 22rem;
+}
+
+.feature-img{
+  height: 12rem;
+  width: 23rem;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+.feature-text{
+  text-align: left;
+  position: relative;
+  margin-left: 0;
+  padding: 0;
+  width: 23rem;
+}
+
+#sell-home{
+  padding-top: 3rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#sell-home-img{
+  width: auto;
+  height: auto;
+  padding: 0;
+  max-width: 24rem;
+  border-radius: 50%;
+  margin: 3rem auto;
+}
+
+#sell-home-poster{
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 1rem;
+  height: 31rem;
+  border-color: white;
+  border-width: medium;
+  border-style: groove;
+}
+
+#works-container{
+  margin: 0 auto;
+}
+#works{
+  text-align: left;
+}
+
+#form-button{
+  height: 3rem;
+  font-weight: lighter;
+  margin: 1rem auto;
+  padding: 0;
+  border-radius: 10px;
+  background-color: #215ca7;
+  border-color: #19447c;
+  border-width: medium;
+  font-weight: bolder;
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+
+.form-banner{
+  width: 100%;
+  height: 4rem;
+  color: #564e11;
+  background-color: #e4da7b;
+  border-radius: 2px;
+  padding-top: 1rem;
+  border-color: #c8b728;
+}
+
+.sell-home-step{
+  border-color: #464159;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#home-info{
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.form-container{
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-align: center;
+  height: 31rem;
+  border-color: white;
+  border-width: medium;
+  border-style: groove;
+}
+
+/*the container must be positioned relative:*/
+.select-state {
+  position: relative;
+  font-family: inherit;
+  width: 75%;
+  height: 2rem;
+  margin: 2px auto;
+  color: #888888;
+}
+
+.select-state select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: gray;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#94baea 0%,#326fbd 50.49011370637988%,#2059a3 51.56556321066488%,#5075a6 100%);
+  border-radius: 5px;
+  border: 1px solid #215ca7;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px #215ca7,0px 1px 3px rgba(0,0,0,0.3);
+  color: #fff;
+  font-size: 20px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4)
+  }
+  .button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  }
+  .button > i {
+    font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+  .button > .ld {
+    font-size: initial
+  }
