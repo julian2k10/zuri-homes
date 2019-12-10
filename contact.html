@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/2214859a0c.js" crossorigin="anonymous"></script>
   <!-- Bootstrap -->
@@ -27,13 +28,37 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact US</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Testimonial</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact US</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonial.html">Testimonial</a></li>
         </ul>
       </div>
     </nav>
+  </section>
+
+  <section id="contact" class="container-fluid row">
+    <div class="center col-lg-6 col-md-8">
+      <div>
+        <h1>CONTACT US</h1>
+      </div>
+      <h3 class="text-left">Lets Get Started...</h3>
+      <form action="?" method="post">
+
+        <input type="text" name="name" value="" class="form-control" placeholder="Name">
+        <input type="text" name="email" value="" class="form-control" aria-describedby="emailHelp" placeholder="Email Address">
+        <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone</small>
+        <textarea name="message" rows="8" cols="80" placeholder="Tell us about your property needs so we can best assist you."></textarea>
+        <div class="form-group form-check text-left">
+          <input id="checkbox-input"class="form-check-input" type="checkbox" name="mailing-list" value="mailing-list" checked>
+          <label class="form-check-label" for="mail-checkbox">Subscribe to our email list for updates, promotions, and more.</label>
+        </div>
+        <div class="g-recaptcha" data-sitekey="6LcmtL8UAAAAABLJGprW6lmNW7zYCMn-J8Ky5-SQ"></div>
+        <br/>
+        <input type="button" name="btn-submit" value="Send" class="button">
+      </form>
+    </div>
+
   </section>
 
 

@@ -4,6 +4,79 @@ body{
   background-color: #6c7b95;
 }
 
+.card-header{
+  width: 25rem;
+  height: 20rem;
+  padding: 1rem;
+  margin:1rem auto;
+}
+
+.card-header > img{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.center{
+  padding: 0;
+  margin: 0 auto;
+}
+
+#contact{
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+#contact .button{
+  width: 15%;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#contact div{
+  padding: 0;
+  margin: 0 auto;
+}
+
+#contact form input{
+  width: 100%;
+  height: 2rem;
+  margin: 2px auto;
+  padding-left: 5px;
+  color: #888888;
+}
+#contact form label {
+  padding-top: 0.3rem;
+  height: 2.3rem;
+  max-width:100%;
+  padding-left: 2.3rem;
+  display:inline-block;
+}
+
+#contact form textarea{
+  width: 100%;
+  height: 15rem;
+  margin: 2px auto;
+  color: #888888;
+}
+
+#contact h1{
+  font-weight: bolder;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+#checkbox-input{
+  max-width: 4%;
+  display: inline-block;
+}
+
 /* div, section{
   border-color: brown;
   border-style: solid;
@@ -43,6 +116,8 @@ form input{
   width: 75%;
   height: 2rem;
   margin: 2px auto;
+  border-radius: 5px;
+  padding-left: 5px;
   color: #888888;
 }
 
@@ -60,10 +135,6 @@ form input{
   padding: 1em;
 }
 
-#copyright{
-
-}
-
 #footer{
   padding: 0;
   height: 13rem;
@@ -72,6 +143,14 @@ form input{
   border-style: groove;
   border-width: medium;
 }
+
+#mail-checkbox{
+  height: 3rem;
+  border-color: green;
+  border-width: medium;
+  border-style: solid;
+}
+
 #main-container{
   display: inline-grid;
   padding: 0;
@@ -130,6 +209,12 @@ width: 300px;
   border-color: green;
 }
 
+.feature-container{
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .feature-item{
   display: inline-block;
   text-align: left;
@@ -173,8 +258,9 @@ width: 300px;
   text-align: center;
   padding: 0;
   margin: 0 auto;
+  max-height: 31rem;
+  max-width: 25rem;
   padding-top: 1rem;
-  height: 31rem;
   border-color: white;
   border-width: medium;
   border-style: groove;
@@ -227,10 +313,11 @@ width: 300px;
 
 .form-container{
   padding: 0;
+  max-height: 31rem;
+  max-width: 25rem;
   margin: 0 auto;
   padding-top: 1rem;
   text-align: center;
-  height: 31rem;
   border-color: white;
   border-width: medium;
   border-style: groove;
@@ -243,6 +330,7 @@ width: 300px;
   width: 75%;
   height: 2rem;
   margin: 2px auto;
+  border-radius: 5px;
   color: #888888;
 }
 
